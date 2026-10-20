@@ -18,6 +18,9 @@ ufsbsg_cc_defaults {
             bsg : {
                cflags : ["-D_BSG_FRAMEWORK_KERNEL_HEADERS"],
             },
+            conditions_default: {
+               cflags : ["-D_BSG_FRAMEWORK_KERNEL_HEADERS"],
+            },
         },
      },
 }
